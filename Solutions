@@ -1,1 +1,95 @@
+1. Solution: Cloud IAM: Qwik Start
 
+export USERNAME_2=
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20IAM%20Qwik%20Start/quicklabgsp064.sh
+
+sudo chmod +x quicklabgsp064.sh
+
+./quicklabgsp064.sh
+
+
+
+
+2. Solution: Cloud Monitoring: Qwik Start
+
+export ZONE=
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Monitoring%20Qwik%20Start/quicklabgsp089.sh
+
+
+sudo chmod +x quicklabgsp089.sh
+
+./quicklabgsp089.sh
+
+
+
+
+3. Solution: Cloud Functions: Qwik Start - Console
+
+export REGION=
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20%20Console/quicklabsgsp081.sh
+
+sudo chmod +x quicklabsgsp081.sh
+
+./quicklabsgsp081.sh
+
+
+
+4. Solution: Cloud Functions: Qwik Start - Command Line
+
+export REGION=
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20Command%20Line/quicklabgsp080.sh
+
+sudo chmod +x quicklabgsp080.sh
+
+./quicklabgsp080.sh
+
+
+
+
+5. Solution: Pub/Sub: Qwik Start - Console
+
+gcloud pubsub topics create myTopic
+
+gcloud  pubsub subscriptions create --topic myTopic MySub
+
+
+
+
+6. Solution: Pub/Sub: Qwik Start - Command Line
+
+gcloud pubsub topics create myTopic
+
+gcloud  pubsub subscriptions create --topic myTopic mySubscription
+
+
+
+
+7. Solution: Pub/Sub: Qwik Start - Python
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/PubSub%20Qwik%20Start%20Python/quicklabgsp094.sh
+
+sudo chmod +x quicklabgsp094.sh
+
+./quicklabgsp094.sh
+
+
+
+8. Solution: Set Up an App Dev Environment on Google Cloud: Challenge Lab
+
+export USERNAME2=
+export ZONE=
+export TOPIC_NAME=
+export FUNCTION_NAME=
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Set%20Up%20an%20App%20Dev%20Environment%20on%20Google%20Cloud%20Challenge%20Lab/quicklabgsp315.sh
+
+sudo chmod +x quicklabgsp315.sh
+
+./quicklabgsp315.sh
